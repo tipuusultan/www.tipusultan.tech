@@ -1,0 +1,32 @@
+.card{
+    margin-left: 30px;
+    
+}
+
+.instagram-logo{
+    width: 150px;
+    display: flex;
+    margin-left: 20px;
+}
+
+.to-do-lgo{
+    width: 200px;
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.cards {
+    display: flex;
+    
+}
+
+
+@media only screen and (max-width: 500px) {
+    .cards {
+        display: inline;
+    }
+    .card{
+        margin-top: 100px;
+    }
+  }
